@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html {
+    font-family: "Inter",sans-serif;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainbody{width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap:40px;
+}
+h2{font-weight: 400;
+    margin-bottom:4px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.inputfield{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.degree{
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    margin:8px;
+}
+#form input{
+    width: 400px;
+    height: 40px;
+border: 1px;
+color:white;
+background-color: black;
+border:1px solid #a1a1a1;
+}
+
+#form #submit{
+    width:500px;
+    height:40px;
+    color:black;
+    background-color: white;}
+
+#search{
+    width:90%;
+    height: 45px;
+    background-color: black;
+    color:white;
+    border:1px solid #a1a1a1;   
+}
+
+
+.studata{
+    width:90%;
+    border: 1px solid #a1a1a1;
+    height:30%;
+    display: flex;
+}
+.showdata{
+    border:1px solid #a1a1a1;
+    
+}
+table{
+    width:100%;
+    color:white;
+}
+td,th,tfoot,table{
+    border-collapse: collapse;
+   
+}
+th{border:1px solid #a1a1a1;
+font-weight: 200;
+padding:6px;}
+td{ border:1px solid #a1a1a1;
+   border-top: none;
+    border-bottom: none;
+    padding-left:9px;
+}
+tfoot{
+    height:150px;
+}
+
+
